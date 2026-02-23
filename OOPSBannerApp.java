@@ -1,16 +1,15 @@
-
 /**
- * OOPSBannerApp
+ * OOPSBannerApp UC3 - String.join Refactor
  * @author Eshaan
- * @version 1.0
+ * @version 3.0
  */
 public class OOPSBannerApp {
     public static void main(String[] args) {
-        // Use Case 2: Render OOPS as Banner using Print Statements
-        System.out.println("  ***    ***   ****  ****   *****  ");
-        System.out.println(" * * *  *   *  *   * *   * *     ");
-        System.out.println(" * * *  *   *  ****  ****   ****    ");
-        System.out.println(" * * *  *   *  *     *           *   ");
-        System.out.println("  ***    ***   *     *      ****       ");
-    }
-}
+feature/UC4-ArrayLoop
+        System.out.println(String.join("  ", " *** ", " *** ", "**** ", " **** "));
+        System.out.println(String.join("  ", "*   *", "*   *", "*   *", "*     "));
+        System.out.println(String.join("  ", "*   *", "*   *", "****" , " ***  "));
+        System.out.println(String.join("  ", "*   *", "*   *", "*    ", "    * "));
+        System.out.println(String.join("  ", " *** ", " *** ", "*    ", " **** "));
+
+
