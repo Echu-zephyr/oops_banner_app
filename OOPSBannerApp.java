@@ -5,12 +5,11 @@
  */
 public class OOPSBannerApp {
     public static void main(String[] args) {
+feature/UC4-ArrayLoop
         System.out.println(String.join("  ", " *** ", " *** ", "**** ", " **** "));
         System.out.println(String.join("  ", "*   *", "*   *", "*   *", "*     "));
         System.out.println(String.join("  ", "*   *", "*   *", "****" , " ***  "));
         System.out.println(String.join("  ", "*   *", "*   *", "*    ", "    * "));
         System.out.println(String.join("  ", " *** ", " *** ", "*    ", " **** "));
-    }
-}
 
 
