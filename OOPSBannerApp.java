@@ -1,15 +1,18 @@
 /**
- * OOPSBannerApp UC3 - String.join Refactor
+ * OOPSBannerApp UC4 - Render OOPS using String Array and Loop
  * @author Eshaan
- * @version 3.0
+ * @version 4.0
  */
 public class OOPSBannerApp {
     public static void main(String[] args) {
-feature/UC4-ArrayLoop
-        System.out.println(String.join("  ", " *** ", " *** ", "**** ", " **** "));
-        System.out.println(String.join("  ", "*   *", "*   *", "*   *", "*     "));
-        System.out.println(String.join("  ", "*   *", "*   *", "****" , " ***  "));
-        System.out.println(String.join("  ", "*   *", "*   *", "*    ", "    * "));
-        System.out.println(String.join("  ", " *** ", " *** ", "*    ", " **** "));
-
-
+        String[] lines = new String[5];
+        lines[0] = String.join("  ", " *** ", " *** ", "**** ", " **** ");
+        lines[1] = String.join("  ", "*   *", "*   *", "*   *", "*     ");
+        lines[2] = String.join("  ", "*   *", "*   *", "****" , " ***  ");
+        lines[3] = String.join("  ", "*   *", "*   *", "*    ", "    * ");
+        lines[4] = String.join("  ", " *** ", " *** ", "*    ", " **** ");
+        for (String line : lines) {
+            System.out.println(line);
+        }
+    }
+}
